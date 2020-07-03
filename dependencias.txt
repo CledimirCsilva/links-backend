@@ -1,0 +1,10 @@
+-express
+-nodemon
+-sequelize
+-sequelize-cli (npx sequelize-cli init:models)
+-sequelize-cli (npx sequelize-cli init:config)
+-dotenv
+-mysql2 (driver mysql)
+-bcrypt
+-rest client (plugin do VSCode, opcional, substitui o Postman)
+-joi (@hapi/joi) para validação de inputs
