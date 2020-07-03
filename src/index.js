@@ -2,6 +2,9 @@ const express = require('express');
 const db = require('./models');
 const app = express();
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+
 const AuthController = require('./controllers/auth');
 
 app.use('/auth', AuthController);

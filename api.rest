@@ -3,10 +3,11 @@
 
 ### Create an Account
 
-GET {{baseUrl}}/auth/sign-in
+GET {{baseUrl}}/auth/sign-up
 Content-Type: {{contentType}}
 
 {
-    
+    "email": "cledimir@gmail.com",
+    "password": "250374"
     
 }
