@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:3001
+@contentType = application/json
+
+### Create an Account
+
+GET {{baseUrl}}/auth/sign-in
+Content-Type: {{contentType}}
+
+{
+    
+    
+}
