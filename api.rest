@@ -7,7 +7,7 @@ GET {{baseUrl}}/auth/sign-up
 Content-Type: {{contentType}}
 
 {
-    "email": "cledimir4@gmail.com",
-    "password": "250374"
-    
+    "email": "cledimir3@yahoo.com",
+    "password": "250374ab",
+    "password_confirmation": "250374ab"  
 }
